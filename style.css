@@ -1,0 +1,136 @@
+/* color */
+.bright-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.verydark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+/* background color */
+.bg-bright-orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bg-dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.bg-verydark-cyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* main */
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+article {
+    height: 60vh;
+    padding: 2.5rem;
+    width: 280px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 50%;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+
+button:hover {
+    background-color: #ffffff00!important;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%)!important;
+}
+
+.sedans-card {
+    border-radius: 10px 0 0 10px;
+}
+
+.luxury-card {
+    border-radius: 0 10px 10px 0;
+}
+
+.sedans-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-card button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+/* footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* responsive (breakpoint) */
+@media (max-width: 767px) {
+    main {
+        display: block;
+        height: 100%;
+        padding: 5rem 1.5rem;
+    }
+    article {
+        margin: 0 auto;
+        padding: 3rem;
+        width: 90%;
+    }
+    h1 {
+        margin: 1.5rem 0;
+    }
+    p {
+        height: 40%;
+        margin-bottom: 1rem;
+    }
+    .sedans-card {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .luxury-card {
+        border-radius: 0 0 10px 10px;
+    }
+}
