@@ -27,7 +27,7 @@ Users should be able to:
 ![screenshot-active](screenshot/screenshot-active.png)
 
 ### Links
-- Live Site URL: 
+- Live Site URL: https://yacodingroom.github.io/3-column-preview-card/
 
 ## My process
 ### Built with
